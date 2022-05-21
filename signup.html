@@ -1,0 +1,59 @@
+<html>
+    <head> 
+        <link rel="stylesheet" href="formcss.css">
+        <title>
+            sign up
+        </title>
+        
+            <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        
+        
+    </head>
+    <body>
+    <div class="b">
+        <section>
+    <fieldset>
+        <form action="insertvalues.php" method="POST">
+        <legend>APPLICANT INFO</legend>
+        <p>
+       
+            <label>First name:</label>
+            <input id="inp1" name="n" type="text">
+        </p>       
+        <legend><strong>VEHICLE OF INTEREST:</strong></legend>
+        <input type="radio" name="va" value="van">
+        VAN &nbsp;
+        <input type="radio" name="va" value="car" >
+        CAR
+        <br>
+        <label>MODEL</label>
+        <select name="opt">
+            <option VALUE="NEW">NEW</option>
+            <option VALUE="OLD">OLD</option>
+        </select ><br>
+        <label> NATIONALITY:</label>
+        <input type="checkbox" name="nri" value="nri">NRI&nbsp;
+        <input type="checkbox" name="ind" value="ind" >IND<br>
+        <BR>
+        <LABEL>DOB</LABEL> &nbsp;<input type="date" name="dob" id=""><BR><br>
+        <label>set password</label><br>
+        <input type="password" name="a"></input><br><br>
+      <button type="submit">
+          submit
+      </button>
+    </form>
+</fieldset>
+</section>
+</div>
+<div id="emp">
+    <br><br><br><br><br><br>
+</div>
+<button id="back" onclick="location.href='index.html'">&#10147;</button>
+</body>
+<footer>
+   
+    <div id="copyrights">
+      <p>&#169;CARSCART_2022 — All Rights Reserved</p>
+    </div>
+  </footer>
+</html>

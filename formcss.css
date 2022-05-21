@@ -1,0 +1,124 @@
+.b{
+    background-color: rgb(209, 187, 200);
+    border-radius: 5%;
+    height: 450px;
+    width:400px;
+    position: absolute;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: 1%;
+    padding: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 40px -5px, rgba(0, 0, 0, 0.3) 0px 8px 80px -8px;
+}
+body{
+    background:linear-gradient(225deg, rgb(208, 57, 85) 0%, rgb(218, 116, 146) 100%);
+}
+.b{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif cursive;font-size: 22px;
+}
+legend{
+    border-radius: 5%;
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: white;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  textarea{
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    /*background: url(Primary/LOGO.jpg) center center no-repeat; */
+    border: 1px solid #888; 
+  }
+  
+  button[type=submit]:hover {
+    background-color: rgb(208, 57, 85);
+  }
+  section{
+      position: absolute;
+      height: 200px;
+      width: 400px;
+      top: 30px;
+      font-family: 'Oswald', sans-serif;
+  }
+  label{
+    font-weight: bolder;
+  }
+
+  BUTTON{
+      height:40px;
+      width:100px;
+     font-family: 'Oswald', sans-serif;
+     font-weight: bolder;
+  }
+  legend{
+   font-weight: bolder;
+   border-radius: 10%;
+
+  }
+  fieldset {
+	border:1px solid #999;
+	border-radius:8px;
+	box-shadow:0 0 10px #999;
+}
+#back{
+    height:100px;
+    width: 100px;
+    border-radius: 100%;
+    font-size: 60px;
+    color:rgb(208, 57, 85) ;
+    text-align: center;
+    transform: rotate(180deg);
+    position: absolute;
+    top:370px;
+    left:100px;
+    box-shadow:0 0 40px rgb(64, 10, 10);
+}
+#back:not([disabled]):hover{
+   color:white;
+   background-color:rgb(208, 57, 85)  ;
+}
+footer{
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    font-size: small;
+    width: 100%;
+    color:#f0f9ff;
+    background-color:#282d32;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+#emp{
+    position:absolute;
+    bottom:5px;}
+body{
+    overflow: scroll;
+}
+  
