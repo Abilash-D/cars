@@ -340,13 +340,11 @@ footer{
   }
 
   #logo{
-    position:absolute;
-    text-align:left;
+      position:absolute;
     top:0.5%;
     left: 0.5%;
-    border: 1px solid pink;
-    box-shadow: pink;
-    color:pink;
+    width: 300px;
+    border: 3px solid #9d1616;
   }
   
   .container1 {
@@ -380,7 +378,7 @@ footer{
   .text1 {
     color: white;
     font-size: 20px;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -388,10 +386,10 @@ footer{
     transform: translate(-50%, -50%);
     white-space: nowrap;
   }
-  #log,#signin{
-      position: relative;
-      right:0%;
-      top:0%
+  #login{
+      position: absolute;
+      right:6%;
+      top:6%
 
   }
   #log,#signin {
@@ -415,12 +413,11 @@ footer{
 
   
   aside{
-position: relative;
+position: absolute;
     width: 17%;
-    height:40px;
 padding-left: 15px;
 margin-left: 15px;
-top:0px;
+top:240px;
 right:20px;
 float: right;
 font-style: italic;
@@ -445,7 +442,6 @@ list-style-image: url('primary/bullet.jpg');
   position: relative;
   bottom:0px;
   right: 0%;
-  width: 100%;
   background: linear-gradient(to bottom right, rgb(208, 57, 85), rgb(218, 116, 146));
   text-shadow: 2px 2px grey;
 }
@@ -485,9 +481,7 @@ list-style-image: url('primary/bullet.jpg');
   background: #3B5998;
   color: white;
 }
-#unfloated-container{
-    width: 1000px;
-}
+
 .fa-twitter {
   background: #55ACEE;
   color: white;
