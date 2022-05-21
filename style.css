@@ -340,7 +340,7 @@ footer{
   }
 
   #logo{
-      position:relative;
+    position:absolute;
     top:0.5%;
     left: 0.5%;
     border: 1px solid pink;
