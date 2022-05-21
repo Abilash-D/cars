@@ -482,7 +482,9 @@ list-style-image: url('primary/bullet.jpg');
   background: #3B5998;
   color: white;
 }
-
+#unfloated-container{
+    width: 1000px;
+}
 .fa-twitter {
   background: #55ACEE;
   color: white;
